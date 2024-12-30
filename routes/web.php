@@ -36,3 +36,8 @@ Route::get('/contoh', function () {
     return view('program_web_dasar.contoh_desain');
 });
 
+// contoh desain2
+Route::get('/contoh2', function () {
+    return view('program_web_dasar.contoh_desain2');
+});
+
