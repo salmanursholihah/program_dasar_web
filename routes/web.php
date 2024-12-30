@@ -30,3 +30,9 @@ Route::get('/tableform', function () {
 Route::get('/css', function () {
     return view('program_web_dasar.css_in_html');
 });
+
+// contoh desain
+Route::get('/contoh', function () {
+    return view('program_web_dasar.contoh_desain');
+});
+
