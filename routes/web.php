@@ -21,7 +21,12 @@ Route::get('/media', function () {
     return view('program_web_dasar.media_html');
 });
 
-// media
+// table dan form
 Route::get('/tableform', function () {
     return view('program_web_dasar.table_dan_form');
+});
+
+// css style dasar
+Route::get('/css', function () {
+    return view('program_web_dasar.css_in_html');
 });
