@@ -15,3 +15,8 @@ Route::get('/html', function () {
 Route::get('/semantic', function () {
     return view('program_web_dasar.semantic_html');
 });
+
+// media
+Route::get('/media', function () {
+    return view('program_web_dasar.media_html');
+});
