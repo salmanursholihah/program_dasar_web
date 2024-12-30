@@ -20,3 +20,8 @@ Route::get('/semantic', function () {
 Route::get('/media', function () {
     return view('program_web_dasar.media_html');
 });
+
+// media
+Route::get('/tableform', function () {
+    return view('program_web_dasar.table_dan_form');
+});
