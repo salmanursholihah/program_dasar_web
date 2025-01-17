@@ -55,4 +55,8 @@ Route::get('/profile-html', function () {
 Route::get('/animasi-transisi', function () {
     return view('minggu_kedua_program_dasar.animasi_transisi');
 });
+// minggu ke dua profile css
+Route::get('/profile-css', function () {
+    return view('minggu_kedua_program_dasar.profile_with_css');
+});
 
