@@ -47,3 +47,8 @@ Route::get('/contoh3', function () {
     return view('program_web_dasar.contoh_desain3_responsif');
 });
 
+// minggu ke dua profile html
+Route::get('/profile-html', function () {
+    return view('minggu_kedua_program_dasar.profile_with_html');
+});
+
