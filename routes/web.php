@@ -63,4 +63,8 @@ Route::get('/profile-css', function () {
 Route::get('/halaman-bootstrap', function () {
     return view('minggu_kedua_program_dasar.halaman_with_bootstrap');
 });
+// minggu ke dua kalkulator with javascript
+Route::get('/kakulator-js', function () {
+    return view('minggu_kedua_program_dasar.kalkulator_with_javasript');
+});
 
