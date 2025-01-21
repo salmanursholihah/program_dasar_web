@@ -67,8 +67,12 @@ Route::get('/halaman-bootstrap', function () {
 Route::get('/kakulator-js', function () {
     return view('minggu_kedua_program_dasar.kalkulator_with_javasript');
 });
-// minggu ke tiga Doom Manipulation
+// minggu ke tiga Doom Manipulation (Mengubah konten HTML dengan JavaScript )
 Route::get('/html-with-js', function () {
     return view('minggu_ketiga.ubah_konten_html_with_javascript');
+});
+// minggu ke tiga Doom Manipulation event listener (Membuat tombol interaktif )
+Route::get('/tombol-interaktif', function () {
+    return view('minggu_ketiga.tombol_interaktif');
 });
 
