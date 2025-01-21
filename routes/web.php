@@ -83,4 +83,8 @@ Route::get('/daftar-dinamis', function () {
 Route::get('/fitur-hapus', function () {
     return view('minggu_ketiga.membuat_fitur_hapus_daftar');
 });
+// minggu ke tiga Doom Manipulation (Membuat Aplikasi To-Do List)
+Route::get('/app-todolist', function () {
+    return view('minggu_ketiga.membuat_aplikasi_todo_list');
+});
 
