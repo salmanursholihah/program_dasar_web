@@ -75,4 +75,8 @@ Route::get('/html-with-js', function () {
 Route::get('/tombol-interaktif', function () {
     return view('minggu_ketiga.tombol_interaktif');
 });
+// minggu ke tiga Doom Manipulation (Membuat daftar dinamis )
+Route::get('/tombol-interaktif', function () {
+    return view('minggu_ketiga.membuat_daftar_dinamis');
+});
 
